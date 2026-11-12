@@ -1,0 +1,1365 @@
+﻿{
+    "rumpun":  [
+                   {
+                       "id":  "Semua",
+                       "nama":  "Semua Rumpun",
+                       "deskripsi":  "Tampilkan seluruh alat musik tradisional dari berbagai rumpun sumber bunyi.",
+                       "icon":  "🌟"
+                   },
+                   {
+                       "id":  "Idiofon",
+                       "nama":  "Idiofon",
+                       "deskripsi":  "Sumber bunyi berasal dari getaran badan instrumen itu sendiri saat dipukul, digoyangkan, atau digetarkan tanpa membran/senar.",
+                       "icon":  "🔔"
+                   },
+                   {
+                       "id":  "Aerofon",
+                       "nama":  "Aerofon",
+                       "deskripsi":  "Sumber bunyi berasal dari getaran udara yang ditiupkan ke dalam rongga instrumen.",
+                       "icon":  "🌬️"
+                   },
+                   {
+                       "id":  "Kordofon",
+                       "nama":  "Kordofon",
+                       "deskripsi":  "Sumber bunyi dihasilkan oleh getaran senar/dawai yang dipetik, digesek, atau dipukul.",
+                       "icon":  "🎸"
+                   },
+                   {
+                       "id":  "Membranofon",
+                       "nama":  "Membranofon",
+                       "deskripsi":  "Sumber bunyi berasal dari getaran selaput atau membran kulit tipis yang ditepuk atau dipukul.",
+                       "icon":  "🥁"
+                   },
+                   {
+                       "id":  "Elektrofon",
+                       "nama":  "Elektrofon",
+                       "deskripsi":  "Sumber bunyi dibangkitkan atau diperkuat secara dominan menggunakan arus listrik/elektronik.",
+                       "icon":  "⚡"
+                   }
+               ],
+    "provinsi":  [
+                     {
+                         "id":  "jawa-barat",
+                         "nama":  "Jawa Barat",
+                         "ibukota":  "Bandung",
+                         "badge":  "🌾",
+                         "warna":  "#F59E0B",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Kacapi Sunda",
+                                                "rumpun":  "Kordofon",
+                                                "cara_main":  "Dipetik",
+                                                "suara_karakter":  "Denting merdu senar kawat bernada pentatonis pelog \u0026 salendro khas priangan.",
+                                                "gambar":  "/assets/images/instruments/kacapi.png",
+                                                "audio":  "/audio/instruments/kacapi.mp3",
+                                                "deskripsi":  "Alat musik petik tradisional Sunda berbentuk perahu kencana (kacapi parahu) atau balok kayu dengan 18-20 dawai kawat baja. Menjadi instrumen utama dalam tembang Sunda Cianjuran dan Mamaos."
+                                            },
+                                            {
+                                                "nama":  "Kendang Sunda",
+                                                "rumpun":  "Membranofon",
+                                                "cara_main":  "Ditepuk",
+                                                "suara_karakter":  "Ketukan ritmis bertenaga dengan variasi nada dung, pak, tung, pong.",
+                                                "gambar":  "/assets/images/instruments/kendang.png",
+                                                "audio":  "/audio/instruments/kendang.mp3",
+                                                "deskripsi":  "Instrumen membran ganda berbahan kayu nangka dengan kulit kerbau atau kambing. Bertindak sebagai pamurba irama (pengatur tempo dan dinamika) dalam ansambel gamelan salendro dan jaipongan."
+                                            },
+                                            {
+                                                "nama":  "Karinding",
+                                                "rumpun":  "Idiofon",
+                                                "cara_main":  "Digetarkan di rongga mulut",
+                                                "suara_karakter":  "Dengung harmonik mirip suara serangga malam atau katak di sawah.",
+                                                "gambar":  "/assets/images/instruments/karinding.png",
+                                                "audio":  "/audio/instruments/karinding.mp3",
+                                                "deskripsi":  "Alat musik tradisional Sunda berbahan pelepah pohon enau (kawung) atau bambu wulung. Jarum getar disentak jari dan ditempelkan di rongga mulut sebagai resonator alami."
+                                            },
+                                            {
+                                                "nama":  "Toleat",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup",
+                                                "suara_karakter":  "Tiupan meliuk khas mirip klarinet atau saksofon bernada melankolis.",
+                                                "gambar":  "/assets/images/instruments/toleat.png",
+                                                "audio":  "/audio/instruments/toleat.mp3",
+                                                "deskripsi":  "Alat musik tiup khas daerah Subang Jawa Barat yang diciptakan dari jerami padi atau bambu tamiang dengan lidah (reed) tunggal. Suaranya lentur dengan glissando unik."
+                                            },
+                                            {
+                                                "nama":  "Suling Sunda",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup",
+                                                "suara_karakter":  "Suara tiup lembut mendayu-dayu yang sangat syahdu.",
+                                                "gambar":  "/assets/images/instruments/suling.png",
+                                                "audio":  "/audio/instruments/suling.mp3",
+                                                "deskripsi":  "Suling bambu lubang 4 (pelog/salendro) atau lubang 6 dengan tali ikatan rotan (suliwer) di bagian ujung tiupnya. Kerap dipadukan bersama kacapi dalam lagu-lagu degung Sunda."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Manuk Dadali",
+                                                 "pencipta_lagu":  "Sambas Mangundikarta",
+                                                 "audio":  "/audio/songs/manuk_dadali.mp3",
+                                                 "lirik_potongan":  "Mesat ngapung luhur jauh di awang-awang / Meberkeun jangjangna bangun taya karingrang..."
+                                             },
+                                             {
+                                                 "judul":  "Bubuy Bulan",
+                                                 "pencipta_lagu":  "Benny Korda",
+                                                 "audio":  "/audio/songs/bubuy_bulan.mp3",
+                                                 "lirik_potongan":  "Bubuy bulan sangray bentang / Panonpoe disasate..."
+                                             }
+                                         ],
+                         "kuis":  [
+                                      {
+                                          "id":  "jb-1",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan sampel petikan kawat berikut! Alat musik petik perahu khas Sunda ini bernama...",
+                                          "audio_soal":  "/audio/instruments/kacapi.mp3",
+                                          "pilihan":  [
+                                                          "Kacapi Sunda",
+                                                          "Sasando",
+                                                          "Siter",
+                                                          "Sampek"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-2",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Kendang Sunda menghasilkan bunyi dari getaran kulit membran saat ditepuk. Termasuk ke dalam rumpun apakah instrumen ini?",
+                                          "audio_soal":  "/audio/instruments/kendang.mp3",
+                                          "pilihan":  [
+                                                          "Membranofon",
+                                                          "Idiofon",
+                                                          "Aerofon",
+                                                          "Kordofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-3",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan bunyi dengung getar berikut! Alat musik bambu yang ditempelkan di rongga mulut ini adalah...",
+                                          "audio_soal":  "/audio/instruments/karinding.mp3",
+                                          "pilihan":  [
+                                                          "Karinding",
+                                                          "Angklung",
+                                                          "Calung",
+                                                          "Gong"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-4",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Alat musik Karinding memanfaatkan badan bambunya sendiri yang digetarkan di mulut. Karinding dikelompokkan ke dalam rumpun...",
+                                          "audio_soal":  "/audio/instruments/karinding.mp3",
+                                          "pilihan":  [
+                                                          "Idiofon",
+                                                          "Aerofon",
+                                                          "Membranofon",
+                                                          "Kordofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-5",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Dengarkan intro lagu Jawa Barat ini: \u0027Mesat ngapung luhur jauh di awang-awang...\u0027. Judul lagu daerah kebanggaan Sunda ini adalah...",
+                                          "audio_soal":  "/audio/songs/manuk_dadali.mp3",
+                                          "pilihan":  [
+                                                          "Manuk Dadali",
+                                                          "Bubuy Bulan",
+                                                          "Es Lilin",
+                                                          "Tokecang"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-6",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan alunan tiupan unik mirip klarinet ini! Alat musik tiup asal Subang ini adalah...",
+                                          "audio_soal":  "/audio/instruments/toleat.mp3",
+                                          "pilihan":  [
+                                                          "Toleat",
+                                                          "Serunai",
+                                                          "Saluang",
+                                                          "Bangsing"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-7",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Suling Sunda dibunyikan dengan hembusan angin dari pernapasan. Oleh karena itu tergolong rumpun...",
+                                          "audio_soal":  "/audio/instruments/suling.mp3",
+                                          "pilihan":  [
+                                                          "Aerofon",
+                                                          "Kordofon",
+                                                          "Idiofon",
+                                                          "Elektrofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-8",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Dengarkan lagu \u0027Bubuy Bulan\u0027 berikut. Lanjutan lirik setelah \u0027Bubuy bulan sangray bentang...\u0027 adalah...",
+                                          "audio_soal":  "/audio/songs/manuk_dadali.mp3",
+                                          "pilihan":  [
+                                                          "Panonpoe disasate",
+                                                          "Unggal bulan abdi teang",
+                                                          "Kacipta salamina",
+                                                          "Nungguan nu leumpang"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-9",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dalam pertunjukan Gamelan Jaipong, alat musik manakah yang bertugas sebagai pengendali dinamika gerak tari penari?",
+                                          "audio_soal":  "/audio/instruments/kendang.mp3",
+                                          "pilihan":  [
+                                                          "Kendang Sunda",
+                                                          "Kacapi",
+                                                          "Suling",
+                                                          "Karinding"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jb-10",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Kacapi Sunda menghasilkan nada dari kawat baja yang dipetik. Rumpun instrumen kawat petik disebut...",
+                                          "audio_soal":  "/audio/instruments/kacapi.mp3",
+                                          "pilihan":  [
+                                                          "Kordofon",
+                                                          "Idiofon",
+                                                          "Membranofon",
+                                                          "Aerofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      }
+                                  ]
+                     },
+                     {
+                         "id":  "jawa-tengah",
+                         "nama":  "Jawa Tengah",
+                         "ibukota":  "Semarang",
+                         "badge":  "🏛️",
+                         "warna":  "#D97706",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Siter Jawa",
+                                                "rumpun":  "Kordofon",
+                                                "cara_main":  "Dipetik",
+                                                "suara_karakter":  "Petikan ganda nada laras pelog \u0026 slendro yang gemerincing cepat.",
+                                                "gambar":  "/assets/images/instruments/siter.png",
+                                                "audio":  "/audio/instruments/kacapi.mp3",
+                                                "deskripsi":  "Alat musik petik tradisional dalam gamelan Jawa berukuran sekitar 30x50 cm berbentuk kotak resonator dengan 11 hingga 13 pasang kawat baja (dawai ganda). Dimainkan menggunakan ibu jari kedua tangan."
+                                            },
+                                            {
+                                                "nama":  "Terompet Reog",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup",
+                                                "suara_karakter":  "Lengkingan bernada tinggi, meliuk-liuk, dan bersemangat gagah.",
+                                                "gambar":  "/assets/images/instruments/terompet.png",
+                                                "audio":  "/audio/instruments/saluang.mp3",
+                                                "deskripsi":  "Alat musik tiup tradisional Jawa berbahan kayu dan tempurung kelapa atau kuningan di bagian corongnya dengan lidah getar ganda dari daun lontar. Memberikan aksen magis pada tarian Reog dan jaran kepang."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Gambang Suling",
+                                                 "pencipta_lagu":  "Ki Nartosabdo",
+                                                 "audio":  "/audio/songs/gambang_suling.mp3",
+                                                 "lirik_potongan":  "Gambang suling ngumandang suarane / Tulat tulit kepenak unine..."
+                                             },
+                                             {
+                                                 "judul":  "Gundul-Gundul Pacul",
+                                                 "pencipta_lagu":  "R.C. Hardjosubroto",
+                                                 "audio":  "/audio/songs/gundul_pacul.mp3",
+                                                 "lirik_potongan":  "Gundul-gundul pacul cul gembelengan / Nyunggi-nyunggi wakul kul gembelengan..."
+                                             }
+                                         ],
+                         "kuis":  [
+                                      {
+                                          "id":  "jt-1",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan petikan dawai ganda pelog/slendro berikut! Alat musik kotak petik asal Jawa Tengah ini bernama...",
+                                          "audio_soal":  "/audio/instruments/kacapi.mp3",
+                                          "pilihan":  [
+                                                          "Siter Jawa",
+                                                          "Kacapi",
+                                                          "Sasando",
+                                                          "Sampek"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-2",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Siter Jawa memiliki senar kawat yang bergetar saat dipetik. Berdasarkan klasifikasi Hornbostel-Sachs, Siter termasuk rumpun...",
+                                          "audio_soal":  "/audio/instruments/kacapi.mp3",
+                                          "pilihan":  [
+                                                          "Kordofon",
+                                                          "Idiofon",
+                                                          "Membranofon",
+                                                          "Aerofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-3",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan bunyi tiup nyaring bersemangat ini! Instrumen pengiring atraksi tarian Reog ini adalah...",
+                                          "audio_soal":  "/audio/instruments/saluang.mp3",
+                                          "pilihan":  [
+                                                          "Terompet Reog",
+                                                          "Serunai",
+                                                          "Saluang",
+                                                          "Fu"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-4",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Terompet Reog dimainkan dengan hembusan napas yang menggetarkan lidah buluh daun lontar. Ini adalah contoh rumpun...",
+                                          "audio_soal":  "/audio/instruments/saluang.mp3",
+                                          "pilihan":  [
+                                                          "Aerofon",
+                                                          "Membranofon",
+                                                          "Kordofon",
+                                                          "Idiofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-5",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Dengarkan lagu daerah ini: \u0027Gambang suling ngumandang suarane...\u0027. Lanjutan lirik lagu karya Ki Nartosabdo ini adalah...",
+                                          "audio_soal":  "/audio/songs/gundul_pacul.mp3",
+                                          "pilihan":  [
+                                                          "Tulat tulit kepenak unine",
+                                                          "Mung nrenyuhake ati",
+                                                          "Bareng lan kentrung",
+                                                          "Ketipung suling kendhang"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-6",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Dengarkan potongan lagu anak tradisional Jawa Tengah ini: \u0027Nyunggi-nyunggi wakul kul gembelengan...\u0027. Lanjutannya adalah...",
+                                          "audio_soal":  "/audio/songs/gundul_pacul.mp3",
+                                          "pilihan":  [
+                                                          "Wakul ngglimpang segane dadi saratan",
+                                                          "Aja sok kemaki dadi pimpinan",
+                                                          "Mangan bareng kanca-kanca",
+                                                          "Balik maneh menyang desa"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-7",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Berapa jumlah pasang senar kawat yang umumnya terpasang pada instrumen Siter Jawa?",
+                                          "audio_soal":  "/audio/instruments/kacapi.mp3",
+                                          "pilihan":  [
+                                                          "11 sampai 13 pasang",
+                                                          "3 sampai 4 senar",
+                                                          "28 senar",
+                                                          "1 senar tunggal"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-8",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dalam ansambel Gamelan Jawa, instrumen siter biasanya dimainkan dengan teknik...",
+                                          "audio_soal":  "/audio/instruments/kacapi.mp3",
+                                          "pilihan":  [
+                                                          "Petikan cepat kedua ibu jari",
+                                                          "Gesekan busur rambut kuda",
+                                                          "Pukulan tabuh beralas karet",
+                                                          "Tiupan mulut berputar"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-9",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Jika keyboard sintetis elektrik dipakai membawakan lagu campursari, instrumen listrik tersebut tergolong rumpun...",
+                                          "audio_soal":  "/audio/instruments/kacapi.mp3",
+                                          "pilihan":  [
+                                                          "Elektrofon",
+                                                          "Kordofon",
+                                                          "Idiofon",
+                                                          "Aerofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "jt-10",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Lagu legendaris \u0027Gambang Suling\u0027 diciptakan oleh maestro seni karawitan asal Jawa Tengah bernama...",
+                                          "audio_soal":  "/audio/songs/gundul_pacul.mp3",
+                                          "pilihan":  [
+                                                          "Ki Nartosabdo",
+                                                          "Gesang",
+                                                          "Manthous",
+                                                          "Kusbini"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      }
+                                  ]
+                     },
+                     {
+                         "id":  "kalimantan-timur",
+                         "nama":  "Kalimantan Timur",
+                         "ibukota":  "Samarinda",
+                         "badge":  "🌿",
+                         "warna":  "#047857",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Sampek (Sape)",
+                                                "rumpun":  "Kordofon",
+                                                "cara_main":  "Dipetik",
+                                                "suara_karakter":  "Petikan magis beresonansi dalam dengan ukiran khas suku Dayak Kenyah.",
+                                                "gambar":  "/assets/images/instruments/sampek.png",
+                                                "audio":  "/audio/instruments/sampek.mp3",
+                                                "deskripsi":  "Gitar tradisional suku Dayak Kenyah dan Kayan di Kalimantan Timur yang dipahat dari sebatang kayu aro atau kayu ulin utuh. Memiliki 3 hingga 6 dawai senar dengan hiasan ornamen taring dan flora Dayak."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Ampar-Ampar Pisang",
+                                                 "pencipta_lagu":  "Hamiedan AC",
+                                                 "audio":  "/audio/songs/ampar_ampar_pisang.mp3",
+                                                 "lirik_potongan":  "Ampar-ampar pisang / Pisangku balum masak / Masak sabigi dihurung bari-bari..."
+                                             }
+                                         ],
+                         "kuis":  [
+                                      {
+                                          "id":  "kt-1",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan petikan dawai kayu ulin bernuansa rimba Borneo berikut! Instrumen khas Dayak ini adalah...",
+                                          "audio_soal":  "/audio/instruments/sampek.mp3",
+                                          "pilihan":  [
+                                                          "Sampek (Sape)",
+                                                          "Sasando",
+                                                          "Kacapi",
+                                                          "Siter"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-2",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Sampek dimainkan dengan cara memetik senar di atas leher kayunya. Sampek digolongkan ke dalam rumpun...",
+                                          "audio_soal":  "/audio/instruments/sampek.mp3",
+                                          "pilihan":  [
+                                                          "Kordofon",
+                                                          "Idiofon",
+                                                          "Aerofon",
+                                                          "Membranofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-3",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Dengarkan lirik lagu Kalimantan ini: \u0027Pisangku balum masak / Masak sabigi...\u0027. Lanjutan liriknya adalah...",
+                                          "audio_soal":  "/audio/songs/ampar_ampar_pisang.mp3",
+                                          "pilihan":  [
+                                                          "Dihurung bari-bari",
+                                                          "Mangga lepak mangga lepok",
+                                                          "Patah kayu bengkok",
+                                                          "Dikitip bidawan"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-4",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Bahan kayu keras khas pedalaman Kalimantan yang kerap digunakan mengukir bodi Sampek Dayak adalah...",
+                                          "audio_soal":  "/audio/instruments/sampek.mp3",
+                                          "pilihan":  [
+                                                          "Kayu Ulin / Kayu Aro",
+                                                          "Kayu Mahoni",
+                                                          "Bambu Talang",
+                                                          "Rotan Hutan"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-5",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Pada zaman dahulu sebelum ada kawat baja, dawai senar alat musik Sampek dibuat dari...",
+                                          "audio_soal":  "/audio/instruments/sampek.mp3",
+                                          "pilihan":  [
+                                                          "Serat akar pohon ijuk / enau",
+                                                          "Rambut kuda",
+                                                          "Usus kelinci",
+                                                          "Kulit ular"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-6",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Lagu \u0027Ampar-Ampar Pisang\u0027 menceritakan tentang kebiasaan masyarakat Kalimantan dalam membuat makanan...",
+                                          "audio_soal":  "/audio/songs/ampar_ampar_pisang.mp3",
+                                          "pilihan":  [
+                                                          "Kue Rimpi (pisang jemur)",
+                                                          "Dodol pisang",
+                                                          "Kripik pisang balado",
+                                                          "Kolek pisang"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-7",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Suku asli di Kalimantan Timur yang paling terkenal melestarikan dan memainkan instrumen Sampek adalah suku...",
+                                          "audio_soal":  "/audio/instruments/sampek.mp3",
+                                          "pilihan":  [
+                                                          "Dayak Kenyah \u0026 Kayan",
+                                                          "Dayak Ngaju",
+                                                          "Suku Banjar",
+                                                          "Suku Kutai"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-8",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Jika seorang seniman memainkan \u0027Electric Sape\u0027 yang dipasang amplifier dan pickup magnetik di panggung, instrumen itu berubah menjadi rumpun...",
+                                          "audio_soal":  "/audio/instruments/sampek.mp3",
+                                          "pilihan":  [
+                                                          "Elektrofon",
+                                                          "Idiofon",
+                                                          "Membranofon",
+                                                          "Aerofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-9",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dalam upacara adat Dayak, Sampek dimainkan dengan tujuan untuk...",
+                                          "audio_soal":  "/audio/instruments/sampek.mp3",
+                                          "pilihan":  [
+                                                          "Mengiringi tarian sukacita dan penyambutan tamu agung",
+                                                          "Tanda peperangan antar suku",
+                                                          "Menakut-nakuti binatang buas",
+                                                          "Memanggil hujan badai"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "kt-10",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Siapakah tokoh komponis yang menyusun lagu anak riang \u0027Ampar-Ampar Pisang\u0027 dari Kalimantan?",
+                                          "audio_soal":  "/audio/songs/ampar_ampar_pisang.mp3",
+                                          "pilihan":  [
+                                                          "Hamiedan AC",
+                                                          "Ismail Marzuki",
+                                                          "Ibu Sud",
+                                                          "Kusbini"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      }
+                                  ]
+                     },
+                     {
+                         "id":  "sulawesi-selatan",
+                         "nama":  "Sulawesi Selatan",
+                         "ibukota":  "Makassar",
+                         "badge":  "🦋",
+                         "warna":  "#BE123C",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Keso-keso",
+                                                "rumpun":  "Kordofon",
+                                                "cara_main":  "Digesek",
+                                                "suara_karakter":  "Gesekan bernada menyayat hati mirip rebab atau biola dua senar kuno.",
+                                                "gambar":  "/assets/images/instruments/keso_keso.png",
+                                                "audio":  "/audio/instruments/keso_keso.mp3",
+                                                "deskripsi":  "Alat musik gesek tradisional suku Bugis-Makassar yang dibuat dari tempurung kelapa atau kayu nangka beralas kulit kambing dengan dua senar ijuk kawat. Dimainkan memakai busur rambut kuda (bow)."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Angin Mamiri",
+                                                 "pencipta_lagu":  "Bora D.G. Irate",
+                                                 "audio":  "/audio/songs/angin_mamiri.mp3",
+                                                 "lirik_potongan":  "Angin mamiri kupasang / Pitujui tondong karang / Salontasa salontasa..."
+                                             }
+                                         ],
+                         "kuis":  [
+                                      {
+                                          "id":  "ss-1",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan suara gesekan senar rebab khas Bugis-Makassar berikut! Nama alat musik gesek tradisional ini adalah...",
+                                          "audio_soal":  "/audio/instruments/keso_keso.mp3",
+                                          "pilihan":  [
+                                                          "Keso-keso",
+                                                          "Sampek",
+                                                          "Saluang",
+                                                          "Dol"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-2",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Keso-keso menghasilkan bunyi saat senarnya digesek dengan busur bertali. Oleh karenanya, Keso-keso termasuk rumpun...",
+                                          "audio_soal":  "/audio/instruments/keso_keso.mp3",
+                                          "pilihan":  [
+                                                          "Kordofon",
+                                                          "Idiofon",
+                                                          "Aerofon",
+                                                          "Membranofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-3",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Dengarkan lantunan lembut lagu Makassar ini: \u0027Angin mamiri kupasang...\u0027. Lanjutan lirik lagu tersebut adalah...",
+                                          "audio_soal":  "/audio/songs/angin_mamiri.mp3",
+                                          "pilihan":  [
+                                                          "Pitujui tondong karang",
+                                                          "Kemanalah engkau pergi",
+                                                          "Mambarakang bau lembut",
+                                                          "Lontara mangkasara"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-4",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Berapa jumlah senar dawai utama pada alat musik gesek Keso-keso?",
+                                          "audio_soal":  "/audio/instruments/keso_keso.mp3",
+                                          "pilihan":  [
+                                                          "2 senar",
+                                                          "6 senar",
+                                                          "12 senar",
+                                                          "4 senar"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-5",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Kotak resonator bawah pada Keso-keso tradisional Sulawesi Selatan umumnya memanfaatkan bahan...",
+                                          "audio_soal":  "/audio/instruments/keso_keso.mp3",
+                                          "pilihan":  [
+                                                          "Tempurung kelapa tua berlapis kulit",
+                                                          "Bambu gombong",
+                                                          "Cangkang kerang mutiara",
+                                                          "Batu cadas"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-6",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Secara harfiah dalam bahasa Makassar, arti dari frasa \u0027Angin Mamiri\u0027 adalah...",
+                                          "audio_soal":  "/audio/songs/angin_mamiri.mp3",
+                                          "pilihan":  [
+                                                          "Angin yang bertiup sepoi-sepoi membawa rindu",
+                                                          "Angin topan di pesisir pantai",
+                                                          "Hembusan badai dari bukit",
+                                                          "Angin sejuk di waktu subuh"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-7",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Meskipun memiliki tabung berpenutup kulit di bawahnya, sumber suara utama Keso-keso adalah dawai yang digesek, sehingga tetap digolongkan sebagai...",
+                                          "audio_soal":  "/audio/instruments/keso_keso.mp3",
+                                          "pilihan":  [
+                                                          "Kordofon",
+                                                          "Membranofon",
+                                                          "Idiofon",
+                                                          "Aerofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-8",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Keso-keso kerap dimainkan bersama petikan mandolin atau kecapi bugis untuk mengiringi seni bertutur cerita rakyat yang disebut...",
+                                          "audio_soal":  "/audio/instruments/keso_keso.mp3",
+                                          "pilihan":  [
+                                                          "Sinrilik",
+                                                          "Makyong",
+                                                          "Ludruk",
+                                                          "Ketoprak"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-9",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Pencipta lagu syahdu \u0027Angin Mamiri\u0027 yang sangat melegenda dari Sulawesi Selatan adalah...",
+                                          "audio_soal":  "/audio/songs/angin_mamiri.mp3",
+                                          "pilihan":  [
+                                                          "Bora D.G. Irate",
+                                                          "Ismail Marzuki",
+                                                          "Ibu Sud",
+                                                          "Daeng Soetigna"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "ss-10",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Instrumen drum perkusi Gandrang Bulo dari Makassar yang terbuat dari bambu dan ditepuk tangan tergolong rumpun...",
+                                          "audio_soal":  "/audio/instruments/keso_keso.mp3",
+                                          "pilihan":  [
+                                                          "Idiofon \u0026 Membranofon",
+                                                          "Kordofon murni",
+                                                          "Aerofon murni",
+                                                          "Elektrofon murni"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      }
+                                  ]
+                     },
+                     {
+                         "id":  "papua",
+                         "nama":  "Papua",
+                         "ibukota":  "Jayapura",
+                         "badge":  "🦜",
+                         "warna":  "#7C2D12",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Tifa Papua",
+                                                "rumpun":  "Membranofon",
+                                                "cara_main":  "Ditepuk",
+                                                "suara_karakter":  "Dentuman bertenaga rendah menghentak ritme tarian perang adat.",
+                                                "gambar":  "/assets/images/instruments/tifa.png",
+                                                "audio":  "/audio/instruments/tifa.mp3",
+                                                "deskripsi":  "Instrumen tabung gendang khas bumi Cendrawasih Papua yang dibuat dari sebatang kayu lenggua berongga. Membran atasnya menggunakan kulit soa-soa (biawak) yang dikencangkan dengan getah damar dan dipukul tangan secara ritmis."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Apuse",
+                                                 "pencipta_lagu":  "Kore R. F.",
+                                                 "audio":  "/audio/songs/apuse.mp3",
+                                                 "lirik_potongan":  "Apuse kokon dao / Yarabe soren doreri / Wuf lenso bani nema baki pase..."
+                                             },
+                                             {
+                                                 "judul":  "Yamko Rambe Yamko",
+                                                 "pencipta_lagu":  "Tradisional Papua",
+                                                 "audio":  "/audio/songs/yamko_rambe_yamko.mp3",
+                                                 "lirik_potongan":  "Hee yamko rambe yamko aronawa kombe / Hee yamko rambe yamko aronawa kombe..."
+                                             }
+                                         ],
+                         "kuis":  [
+                                      {
+                                          "id":  "pp-1",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Dengarkan tabuhan ritmis bertenaga berikut! Instrumen perkusi tabung kayu khas tanah Papua ini adalah...",
+                                          "audio_soal":  "/audio/instruments/tifa.mp3",
+                                          "pilihan":  [
+                                                          "Tifa Papua",
+                                                          "Kendang Sunda",
+                                                          "Bedug",
+                                                          "Dol"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-2",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Tifa memanfaatkan selaput kulit biawak di atas tabungnya saat dipukul tangan. Tifa digolongkan sebagai rumpun...",
+                                          "audio_soal":  "/audio/instruments/tifa.mp3",
+                                          "pilihan":  [
+                                                          "Membranofon",
+                                                          "Idiofon",
+                                                          "Aerofon",
+                                                          "Kordofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-3",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Dengarkan lagu daerah Papua ini: \u0027Apuse kokon dao / Yarabe soren doreri...\u0027. Lanjutan lirik pamitan ini adalah...",
+                                          "audio_soal":  "/audio/songs/apuse.mp3",
+                                          "pilihan":  [
+                                                          "Wuf lenso bani nema baki pase",
+                                                          "Arafabye aswarakwar",
+                                                          "Hee yamko rambe yamko",
+                                                          "Aroma bunga cendrawasih"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-4",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Kulit binatang apakah yang secara tradisional digunakan sebagai membran penghasil suara pada Tifa Papua?",
+                                          "audio_soal":  "/audio/instruments/tifa.mp3",
+                                          "pilihan":  [
+                                                          "Kulit soa-soa (biawak air)",
+                                                          "Kulit sapi perah",
+                                                          "Kulit ikan hiu",
+                                                          "Kulit buaya muara"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-5",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Untuk mengatur nada tinggi-rendah pukulan Tifa, masyarakat Papua menempelkan titik-titik bahan alami berupa...",
+                                          "audio_soal":  "/audio/instruments/tifa.mp3",
+                                          "pilihan":  [
+                                                          "Getah pohon damar",
+                                                          "Tanah liat merah",
+                                                          "Lilin lebah madu",
+                                                          "Minyak kelapa"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-6",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Lagu \u0027Yamko Rambe Yamko\u0027 yang sangat energik bertemakan...",
+                                          "audio_soal":  "/audio/songs/apuse.mp3",
+                                          "pilihan":  [
+                                                          "Semangat kepahlawanan dan keberanian membela tanah air",
+                                                          "Ratapan kesedihan anak yatim",
+                                                          "Doa meminta panen kelapa",
+                                                          "Ajakan menari di pesta pernikahan"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-7",
+                                          "tipe":  "tebak_bunyi",
+                                          "soal":  "Kayu pohon yang menjadi bahan utama bodi tabung Tifa Papua karena daya tahannya yang kuat adalah...",
+                                          "audio_soal":  "/audio/instruments/tifa.mp3",
+                                          "pilihan":  [
+                                                          "Kayu Lenggua",
+                                                          "Kayu Randu",
+                                                          "Batang Pisang",
+                                                          "Kayu Karet"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-8",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Instrumen tiup dari kerang laut atau bambu di Papua yang ditiup masuk ke dalam rumpun...",
+                                          "audio_soal":  "/audio/instruments/tifa.mp3",
+                                          "pilihan":  [
+                                                          "Aerofon",
+                                                          "Membranofon",
+                                                          "Idiofon",
+                                                          "Elektrofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-9",
+                                          "tipe":  "sambung_lagu",
+                                          "soal":  "Bagian penutup lirik lagu \u0027Apuse\u0027 yang menandakan salam perpisahan adalah...",
+                                          "audio_soal":  "/audio/songs/apuse.mp3",
+                                          "pilihan":  [
+                                                          "Arafabye aswarakwar",
+                                                          "Aronawa kombe",
+                                                          "Kokon dao",
+                                                          "Soren doreri"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      },
+                                      {
+                                          "id":  "pp-10",
+                                          "tipe":  "tebak_rumpun",
+                                          "soal":  "Instrumen musik \u0027Pikon\u0027 di lembah Baliem Papua yang dimainkan dengan benang tarik di depan rongga mulut termasuk rumpun...",
+                                          "audio_soal":  "/audio/instruments/tifa.mp3",
+                                          "pilihan":  [
+                                                          "Idiofon",
+                                                          "Membranofon",
+                                                          "Elektrofon",
+                                                          "Aerofon"
+                                                      ],
+                                          "jawaban_benar":  0
+                                      }
+                                  ]
+                     },
+                     {
+                         "id":  "aceh",
+                         "nama":  "Aceh (NAD)",
+                         "ibukota":  "Banda Aceh",
+                         "badge":  "🕌",
+                         "warna":  "#065F46",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Serunai Aceh (Serune Kalee)",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup",
+                                                "suara_karakter":  "Suara tiup melengking tinggi bergetar dengan teknik pernapasan bersambung.",
+                                                "gambar":  "/assets/images/instruments/serunai.png",
+                                                "audio":  "/audio/instruments/saluang.mp3",
+                                                "deskripsi":  "Instrumen tiup tradisional Aceh berbahan kayu nangka atau linto dengan ujung corong kuningan mirip terompet klarinet. Menggunakan reed lidah ganda dari daun kelapa kering."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Bungong Jeumpa",
+                                                 "pencipta_lagu":  "Ibrahim Abduh",
+                                                 "audio":  "/audio/songs/bungong_jeumpa.mp3",
+                                                 "lirik_potongan":  "Bungong jeumpa bungong jeumpa meugah di Aceh / Bungong teuleubeh teuleubeh indah lagoina..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "bali",
+                         "nama":  "Bali",
+                         "ibukota":  "Denpasar",
+                         "badge":  "🌺",
+                         "warna":  "#B45309",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Bangsing Bali",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup",
+                                                "suara_karakter":  "Tiupan bambu berornamen nada getar (ngoret) yang mistis dan menenangkan.",
+                                                "gambar":  "/assets/images/instruments/bangsing.png",
+                                                "audio":  "/audio/instruments/saluang.mp3",
+                                                "deskripsi":  "Suling bambu khas Bali berukuran cukup panjang yang ditiup tegak atau menyamping. Menghasilkan skala nada laras pelog gong kebyar atau semar pagulingan."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Meyong-Meyong",
+                                                 "pencipta_lagu":  "Tradisional Bali",
+                                                 "audio":  "/audio/songs/meyong_meyong.mp3",
+                                                 "lirik_potongan":  "Meyong-meyong ngudiang kita ngeling? / Ada taluh di peken liu gati..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "sumatera-utara",
+                         "nama":  "Sumatera Utara",
+                         "ibukota":  "Medan",
+                         "badge":  "🌋",
+                         "warna":  "#991B1B",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Saluang",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup menyamping",
+                                                "suara_karakter":  "Hembusan nada pentatonis mendayu tanpa henti berkat teknik sirkulasi napas.",
+                                                "gambar":  "/assets/images/instruments/saluang.png",
+                                                "audio":  "/audio/instruments/saluang.mp3",
+                                                "deskripsi":  "Alat musik tiup bambu tipis talang dengan 4 lubang nada dari Minangkabau/Sumatera. Ditiup menyamping miring menggunakan teknik manyisiahkan angok (meniup sambil menarik napas bersamaan)."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Sinanggar Tulo",
+                                                 "pencipta_lagu":  "Tilhang Gultom",
+                                                 "audio":  "/audio/songs/sinanggar_tulo.mp3",
+                                                 "lirik_potongan":  "Sinanggar tulo tulo a tulo / Sinanggar tulo tulo a tulo..."
+                                             },
+                                             {
+                                                 "judul":  "Butet",
+                                                 "pencipta_lagu":  "S. Dis Sitompul",
+                                                 "audio":  "/audio/songs/butet.mp3",
+                                                 "lirik_potongan":  "Butet dipersintaan do amangmu ale butet..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "jakarta",
+                         "nama":  "DKI Jakarta",
+                         "ibukota":  "Jakarta",
+                         "badge":  "🏙️",
+                         "warna":  "#1D4ED8",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Terbang Betawi (Rebana)",
+                                                "rumpun":  "Membranofon",
+                                                "cara_main":  "Ditepuk",
+                                                "suara_karakter":  "Pukulan membran renyah disertai gemerincing lempeng kuningan tepi.",
+                                                "gambar":  "/assets/images/instruments/terbang.png",
+                                                "audio":  "/audio/instruments/terbang.mp3",
+                                                "deskripsi":  "Rebana bundar berbingkai kayu jati atau mahoni dengan selaput kulit kambing. Digunakan dalam orkes rebana biang, hadroh, serta mendampingi kesenian gambang kromong Betawi."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Kicir-Kicir",
+                                                 "pencipta_lagu":  "Tradisional Betawi",
+                                                 "audio":  "/audio/songs/kicir_kicir.mp3",
+                                                 "lirik_potongan":  "Kicir-kicir ini lagunya / Lagu lama ya tuan dari Jakarta..."
+                                             },
+                                             {
+                                                 "judul":  "Jali-Jali",
+                                                 "pencipta_lagu":  "M. Sagi",
+                                                 "audio":  "/audio/songs/jali_jali.mp3",
+                                                 "lirik_potongan":  "Ini dia si jali-jali / Lagunya enak lagunya enak merdu sekali..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "ntt",
+                         "nama":  "Nusa Tenggara Timur",
+                         "ibukota":  "Kupang",
+                         "badge":  "🏝️",
+                         "warna":  "#0E7490",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Sasando Rote",
+                                                "rumpun":  "Kordofon",
+                                                "cara_main":  "Dipetik",
+                                                "suara_karakter":  "Alunan harpa tropis yang sangat kaya dan mengalun syahdu.",
+                                                "gambar":  "/assets/images/instruments/sasando.png",
+                                                "audio":  "/audio/instruments/sasando.mp3",
+                                                "deskripsi":  "Instrumen petik legendaris dari Pulau Rote NTT yang tersusun dari tabung bambu melingkar dengan 28-56 kawat senar, dibungkus anyaman daun pohon lontar kipas (haik) sebagai resonator akustiknya."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Anak Kambing Saya",
+                                                 "pencipta_lagu":  "Ibu Sud",
+                                                 "audio":  "/audio/songs/anak_kambing_saya.mp3",
+                                                 "lirik_potongan":  "Mana dimana anak kambing saya / Anak kambing tuan ada di pohon waru..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "banten",
+                         "nama":  "Banten",
+                         "ibukota":  "Serang",
+                         "badge":  "🏯",
+                         "warna":  "#4338CA",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Bedug Banten",
+                                                "rumpun":  "Membranofon",
+                                                "cara_main":  "Dipukul stik kayu",
+                                                "suara_karakter":  "Gema tabuhan dalam yang menggetarkan bumi dan memanggil kebersamaan.",
+                                                "gambar":  "/assets/images/instruments/bedug.png",
+                                                "audio":  "/audio/instruments/bedug.mp3",
+                                                "deskripsi":  "Gendang raksasa berdiameter besar berbahan kayu jati atau glugu dengan membran kulit kerbau jantan. Menjadi penanda waktu ibadah dan atraksi Rampak Bedug Banten."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Tong Sarakah",
+                                                 "pencipta_lagu":  "Tradisional Banten",
+                                                 "audio":  "/audio/songs/tong_sarakah.mp3",
+                                                 "lirik_potongan":  "Sora bedug di masjid agung..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "bengkulu",
+                         "nama":  "Bengkulu",
+                         "ibukota":  "Bengkulu",
+                         "badge":  "🌸",
+                         "warna":  "#C2410C",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Dol Bengkulu",
+                                                "rumpun":  "Membranofon",
+                                                "cara_main":  "Dipukul pemukul kayu",
+                                                "suara_karakter":  "Dentuman kolosal membakar semangat dengan pola ritmik suwena \u0026 tamatam.",
+                                                "gambar":  "/assets/images/instruments/dol.png",
+                                                "audio":  "/audio/instruments/dol.mp3",
+                                                "deskripsi":  "Alat musik tabur drum melengkung khas Bengkulu dari bonggol pohon kelapa yang dibalut kulit lembu. Dimainkan massal pada perayaan budaya Tabot Bengkulu."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Lalan Belek",
+                                                 "pencipta_lagu":  "Tradisional Bengkulu (Rejang)",
+                                                 "audio":  "/audio/songs/lalan_belek.mp3",
+                                                 "lirik_potongan":  "Oi lalan belek keme lalan..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "ntb",
+                         "nama":  "Nusa Tenggara Barat",
+                         "ibukota":  "Mataram",
+                         "badge":  "🦎",
+                         "warna":  "#0D9488",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Kendang Beleq Lombok",
+                                                "rumpun":  "Membranofon",
+                                                "cara_main":  "Ditepuk dan dipukul stik",
+                                                "suara_karakter":  "Dentuman ganda bergemuruh yang mengiringi prajurit parade kerajaan Sasak.",
+                                                "gambar":  "/assets/images/instruments/kendang_beleq.png",
+                                                "audio":  "/audio/instruments/kendang_beleq.mp3",
+                                                "deskripsi":  "Gendang berukuran besar yang disandang di bahu penari suku Sasak Lombok. Menggabungkan atraksi musik bertempo gagah dengan tarian teatrikal."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Kadal Nokeq",
+                                                 "pencipta_lagu":  "Tradisional Sasak",
+                                                 "audio":  "/audio/songs/kadal_nokeq.mp3",
+                                                 "lirik_potongan":  "Kadal noke leq bawaq bungas..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     },
+                     {
+                         "id":  "maluku",
+                         "nama":  "Maluku \u0026 Maluku Utara",
+                         "ibukota":  "Ambon",
+                         "badge":  "🐚",
+                         "warna":  "#0284C7",
+                         "alat_musik":  [
+                                            {
+                                                "nama":  "Tahuri (Korno Kerang)",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup",
+                                                "suara_karakter":  "Tiupan terompet laut yang jernih, kuat, dan menggema hingga pulau seberang.",
+                                                "gambar":  "/assets/images/instruments/tahuri.png",
+                                                "audio":  "/audio/instruments/fu.mp3",
+                                                "deskripsi":  "Terompet tiup alami dari cangkang kerang laut raksasa (triton / sawan) yang dilubangi di bagian ujung spiralnya. Berfungsi memanggil warga negeri dan mengiringi orkes suling bambu."
+                                            },
+                                            {
+                                                "nama":  "Fu Ternate",
+                                                "rumpun":  "Aerofon",
+                                                "cara_main":  "Ditiup",
+                                                "suara_karakter":  "Suara tiup primitif berwibawa dari keong laut di Kesultanan Maluku Utara.",
+                                                "gambar":  "/assets/images/instruments/fu.png",
+                                                "audio":  "/audio/instruments/fu.mp3",
+                                                "deskripsi":  "Instrumen tiup tradisional Ternate berbahan cangkang kima atau keong laut besar. Dahulu ditiup oleh prajurit kesultanan sebagai komando armada perang laut kora-kora."
+                                            }
+                                        ],
+                         "lagu_daerah":  [
+                                             {
+                                                 "judul":  "Rasa Sayange",
+                                                 "pencipta_lagu":  "Paulus Pea",
+                                                 "audio":  "/audio/songs/rasa_sayange.mp3",
+                                                 "lirik_potongan":  "Rasa sayange rasa sayang sayange / Kulihat dari jauh rasa sayang sayange..."
+                                             },
+                                             {
+                                                 "judul":  "Ayo Mama",
+                                                 "pencipta_lagu":  "Huang Huilan",
+                                                 "audio":  "/audio/songs/ayo_mama.mp3",
+                                                 "lirik_potongan":  "Ayo mama jangan mama marah beta / Dia cuma cuma cium beta..."
+                                             }
+                                         ],
+                         "kuis":  [
+
+                                  ]
+                     }
+                 ],
+    "lagu_nasional":  [
+                          {
+                              "id":  1,
+                              "judul":  "Indonesia Raya",
+                              "pencipta":  "W.R. Soepratman",
+                              "kategori":  "Lagu Kebangsaan",
+                              "tempo":  "Di Marcia (Gagah)",
+                              "lirik_utama":  "Indonesia tanah airku, tanah tumpah darahku. Di sanalah aku berdiri, jadi pandu ibuku...",
+                              "audio":  "/audio/songs/indonesia_raya.mp3"
+                          },
+                          {
+                              "id":  2,
+                              "judul":  "Garuda Pancasila",
+                              "pencipta":  "Sudharnoto",
+                              "kategori":  "Lagu Perjuangan",
+                              "tempo":  "Marcia Vivace",
+                              "lirik_utama":  "Garuda Pancasila, akulah pendukungmu! Patriot proklamasi, sedia berkorban untukmu...",
+                              "audio":  "/audio/songs/garuda_pancasila.mp3"
+                          },
+                          {
+                              "id":  3,
+                              "judul":  "Rayuan Pulau Kelapa",
+                              "pencipta":  "Ismail Marzuki",
+                              "kategori":  "Lagu Cinta Tanah Air",
+                              "tempo":  "Andante Maestoso",
+                              "lirik_utama":  "Tanah airku Indonesia, negeri elok amat kucinta. Tanah tumpah darahku yang mulia, yang kupuja sepanjang masa...",
+                              "audio":  "/audio/songs/rayuan_pulau_kelapa.mp3"
+                          },
+                          {
+                              "id":  4,
+                              "judul":  "Maju Tak Gentar",
+                              "pencipta":  "C. Simanjuntak",
+                              "kategori":  "Lagu Perjuangan",
+                              "tempo":  "Marcia Giocoso",
+                              "lirik_utama":  "Maju tak gentar membela yang benar! Maju tak gentar hak kita diserang...",
+                              "audio":  "/audio/songs/maju_tak_gentar.mp3"
+                          },
+                          {
+                              "id":  5,
+                              "judul":  "Ibu Kita Kartini",
+                              "pencipta":  "W.R. Soepratman",
+                              "kategori":  "Lagu Penghormatan Tokoh",
+                              "tempo":  "Andante Cantabile",
+                              "lirik_utama":  "Ibu kita Kartini, putri sejati. Putri Indonesia, harum namanya...",
+                              "audio":  "/audio/songs/ibu_kita_kartini.mp3"
+                          },
+                          {
+                              "id":  6,
+                              "judul":  "Bagimu Negeri",
+                              "pencipta":  "Kusbini",
+                              "kategori":  "Lagu Ikrar Kesetiaan",
+                              "tempo":  "Largo Con Brio",
+                              "lirik_utama":  "Padamu negeri kami berjanji, padamu negeri kami berbakti. Padamu negeri kami mengabdi, bagimu negeri jiwa raga kami...",
+                              "audio":  "/audio/songs/bagimu_negeri.mp3"
+                          },
+                          {
+                              "id":  7,
+                              "judul":  "Hari Merdeka (17 Agustus)",
+                              "pencipta":  "H. Mutahar",
+                              "kategori":  "Lagu Kemerdekaan",
+                              "tempo":  "Con Bravura",
+                              "lirik_utama":  "Tujuh belas Agustus tahun empat lima, itulah hari kemerdekaan kita. Hari merdeka nusa dan bangsa...",
+                              "audio":  "/audio/songs/hari_merdeka.mp3"
+                          },
+                          {
+                              "id":  8,
+                              "judul":  "Gugur Bunga",
+                              "pencipta":  "Ismail Marzuki",
+                              "kategori":  "Lagu Mengenang Pahlawan",
+                              "tempo":  "Andante Sostenuto",
+                              "lirik_utama":  "Betapa hatiku takkan pilu, telah gugur pahlawanku. Betapa hatiku takkan sedih, hamba ditinggal sendiri...",
+                              "audio":  "/audio/songs/gugur_bunga.mp3"
+                          },
+                          {
+                              "id":  9,
+                              "judul":  "Tanah Airku",
+                              "pencipta":  "Ibu Sud",
+                              "kategori":  "Lagu Kerinduan Ibu Pertiwi",
+                              "tempo":  "Lento Espressivo",
+                              "lirik_utama":  "Tanah airku tidak kulupakan, kan terkenang selama hidupku. Biarpun saya pergi jauh, tidakkan hilang dari kalbu...",
+                              "audio":  "/audio/songs/tanah_airku.mp3"
+                          },
+                          {
+                              "id":  10,
+                              "judul":  "Bangun Pemudi Pemuda",
+                              "pencipta":  "Alfred Simanjuntak",
+                              "kategori":  "Lagu Semangat Generasi Bangsa",
+                              "tempo":  "Marcia Energico",
+                              "lirik_utama":  "Bangun pemudi pemuda Indonesia, lengan bajumu singsingkan untuk negara...",
+                              "audio":  "/audio/songs/bangun_pemudi_pemuda.mp3"
+                          },
+                          {
+                              "id":  11,
+                              "judul":  "Halo-Halo Bandung",
+                              "pencipta":  "Ismail Marzuki",
+                              "kategori":  "Lagu Peristiwa Sejarah",
+                              "tempo":  "Marcia Vivace",
+                              "lirik_utama":  "Halo-halo Bandung, Ibukota periangan. Halo-halo Bandung, kota kenang-kenangan...",
+                              "audio":  "/audio/songs/halo_halo_bandung.mp3"
+                          },
+                          {
+                              "id":  12,
+                              "judul":  "Berkibarlah Benderaku",
+                              "pencipta":  "Ibu Sud",
+                              "kategori":  "Lagu Penghormatan Sang Merah Putih",
+                              "tempo":  "Marcia Con Spirito",
+                              "lirik_utama":  "Berkibarlah benderaku, lambang suci gagah perwira di seluruh pantai Indonesia...",
+                              "audio":  "/audio/songs/berkibarlah_benderaku.mp3"
+                          },
+                          {
+                              "id":  13,
+                              "judul":  "Dari Sabang Sampai Merauke",
+                              "pencipta":  "R. Suharjo",
+                              "kategori":  "Lagu Kesatuan Nusantara",
+                              "tempo":  "Con Brio",
+                              "lirik_utama":  "Dari Sabang sampai Merauke berjajar pulau-pulau. Sambung-menyambung menjadi satu, itulah Indonesia...",
+                              "audio":  "/audio/songs/dari_sabang_sampai_merauke.mp3"
+                          },
+                          {
+                              "id":  14,
+                              "judul":  "Syukur",
+                              "pencipta":  "H. Mutahar",
+                              "kategori":  "Lagu Renungan \u0026 Doa",
+                              "tempo":  "Andante Religioso",
+                              "lirik_utama":  "Dari yakin ku teguh, hati ikhlas ku penuh, akan karunia-Mu. Tanah air pusaka, Indonesia merdeka...",
+                              "audio":  "/audio/songs/syukur.mp3"
+                          },
+                          {
+                              "id":  15,
+                              "judul":  "Satu Nusa Satu Bangsa",
+                              "pencipta":  "Liberty Manik (L. Manik)",
+                              "kategori":  "Lagu Sumpah Pemuda",
+                              "tempo":  "Maestoso",
+                              "lirik_utama":  "Satu nusa, satu bangsa, satu bahasa kita. Tanah air pasti jaya untuk selama-lamanya...",
+                              "audio":  "/audio/songs/satu_nusa_satu_bangsa.mp3"
+                          },
+                          {
+                              "id":  16,
+                              "judul":  "Mengheningkan Cipta",
+                              "pencipta":  "T. Prawit",
+                              "kategori":  "Lagu Upacara Bendera",
+                              "tempo":  "Adagio Solemnis",
+                              "lirik_utama":  "Dengar seluruh angkasa raya menyatakan puji. Kepada pahlawanku yang telah gugur di medan bakti...",
+                              "audio":  "/audio/songs/mengheningkan_cipta.mp3"
+                          },
+                          {
+                              "id":  17,
+                              "judul":  "Desaku yang Kucinta",
+                              "pencipta":  "Liberty Manik (L. Manik)",
+                              "kategori":  "Lagu Keindahan Alam Nusantara",
+                              "tempo":  "Moderato Amabile",
+                              "lirik_utama":  "Desaku yang kucinta, pujaan hatiku. Tempat ayah dan bunda dan handai taulanku...",
+                              "audio":  "/audio/songs/desaku.mp3"
+                          },
+                          {
+                              "id":  18,
+                              "judul":  "Indonesia Pusaka",
+                              "pencipta":  "Ismail Marzuki",
+                              "kategori":  "Lagu Keagungan Tanah Air",
+                              "tempo":  "Moderato Cantabile",
+                              "lirik_utama":  "Indonesia tanah air beta, pusaka abadi nan jaya. Indonesia sejak dulu kala slalu dipuja-puja bangsa...",
+                              "audio":  "/audio/songs/indonesia_pusaka.mp3"
+                          },
+                          {
+                              "id":  19,
+                              "judul":  "Nyiur Hijau",
+                              "pencipta":  "Maladi",
+                              "kategori":  "Lagu Harmoni Alam Indonesia",
+                              "tempo":  "Andantino Grazioso",
+                              "lirik_utama":  "Nyiur hijau di bibir pantai, berbisik-bisik raja kelana. Melambai-lambai di atas pantai...",
+                              "audio":  "/audio/songs/nyiur_hijau.mp3"
+                          },
+                          {
+                              "id":  20,
+                              "judul":  "Hymne Guru (Pahlawan Tanpa Tanda Jasa)",
+                              "pencipta":  "Sartono",
+                              "kategori":  "Lagu Apresiasi Pendidik Bangsa",
+                              "tempo":  "Andante Maestoso",
+                              "lirik_utama":  "Terpujilah wahai engkau ibu bapak guru. Namamu akan selalu hidup dalam sanubariku...",
+                              "audio":  "/audio/songs/hymne_guru.mp3"
+                          }
+                      ]
+}

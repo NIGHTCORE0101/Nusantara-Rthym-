@@ -1,0 +1,34 @@
+DAFTAR FILE MP3 YANG PERLU DIUNDUH
+===================================
+Taruh file MP3 yang sudah diunduh di folder:
+  src/assets/audio/songs/
+
+LAGU DAERAH (10 file):
+1.  bubuy_bulan.mp3        → Bubuy Bulan (Jawa Barat)
+2.  gambang_suling.mp3     → Gambang Suling (Jawa Tengah)
+3.  yamko_rambe_yamko.mp3  → Yamko Rambe Yamko (Papua)
+4.  sinanggar_tulo.mp3     → Sinanggar Tulo (Sumatera Utara)
+5.  jali_jali.mp3          → Jali-Jali (DKI Jakarta)
+6.  anak_kambing_saya.mp3  → Anak Kambing Saya (NTT)
+7.  tong_sarakah.mp3       → Tong Sarakah (Banten)
+8.  lalan_belek.mp3        → Lalan Belek (Bengkulu)
+9.  kadal_nokeq.mp3        → Kadal Nokeq (NTB)
+10. ayo_mama.mp3           → Ayo Mama (Maluku)
+
+LAGU NASIONAL (11 file):
+11. indonesia_raya.mp3              → Indonesia Raya
+12. halo_halo_bandung.mp3          → Halo-Halo Bandung
+13. berkibarlah_benderaku.mp3      → Berkibarlah Benderaku
+14. dari_sabang_sampai_merauke.mp3 → Dari Sabang Sampai Merauke
+15. syukur.mp3                     → Syukur
+16. satu_nusa_satu_bangsa.mp3       → Satu Nusa Satu Bangsa
+17. mengheningkan_cipta.mp3        → Mengheningkan Cipta
+18. desaku.mp3                     → Desaku yang Kucinta
+19. indonesia_pusaka.mp3           → Indonesia Pusaka
+20. nyiur_hijau.mp3                → Nyiur Hijau
+21. hymne_guru.mp3                 → Hymne Guru (Pahlawan Tanpa Tanda Jasa)
+
+TOTAL: 21 file MP3 perlu diunduh
+
+Catatan: Setelah menambahkan file MP3, beri tahu Kiro agar
+mengupdate import di src/hooks/useGameAudio.js

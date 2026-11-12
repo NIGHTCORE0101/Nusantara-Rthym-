@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-gold: #f59e0b;
+  --primary-maroon: #881337;
+  --primary-emerald: #047857;
+  --primary-wood: #78350f;
+}
+
+body {
+  font-family: 'Fredoka', 'Plus Jakarta Sans', sans-serif;
+  background-color: #fefce8;
+  background-image: radial-gradient(#fde68a 1.2px, transparent 1.2px), radial-gradient(#fed7aa 1.2px, #fefce8 1.2px);
+  background-size: 48px 48px;
+  background-position: 0 0, 24px 24px;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom Game Button Styles */
+.btn-game-gold {
+  background: linear-gradient(180deg, #fbbf24 0%, #d97706 100%);
+  border-bottom: 5px solid #92400e;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.btn-game-gold:active {
+  transform: translateY(4px);
+  border-bottom-width: 1px;
+}
+
+.btn-game-maroon {
+  background: linear-gradient(180deg, #e11d48 0%, #9f1239 100%);
+  border-bottom: 5px solid #4c0519;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.btn-game-maroon:active {
+  transform: translateY(4px);
+  border-bottom-width: 1px;
+}
+
+.btn-game-emerald {
+  background: linear-gradient(180deg, #10b981 0%, #047857 100%);
+  border-bottom: 5px solid #064e3b;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.btn-game-emerald:active {
+  transform: translateY(4px);
+  border-bottom-width: 1px;
+}
+
+.btn-game-blue {
+  background: linear-gradient(180deg, #38bdf8 0%, #0284c7 100%);
+  border-bottom: 5px solid #0369a1;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.btn-game-blue:active {
+  transform: translateY(4px);
+  border-bottom-width: 1px;
+}
+
+.btn-game-purple {
+  background: linear-gradient(180deg, #c084fc 0%, #9333ea 100%);
+  border-bottom: 5px solid #6b21a8;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.btn-game-purple:active {
+  transform: translateY(4px);
+  border-bottom-width: 1px;
+}
+
+/* Wood frame panel */
+.wood-panel {
+  background: #fffbeb;
+  border: 6px solid #b45309;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 0 #78350f, 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+
+.wood-panel-inner {
+  border: 3px dashed #d97706;
+  border-radius: 1rem;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fef3c7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d97706;
+  border-radius: 9999px;
+  border: 2px solid #fef3c7;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309;
+}

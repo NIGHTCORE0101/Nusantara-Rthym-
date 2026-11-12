@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+raw_audio/
+raw_audio_pendek/
+nusantararhythm/
+public/test.mp3
